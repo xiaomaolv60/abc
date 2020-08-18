@@ -3,3 +3,6 @@
 
 ###第二次作业
 ./class_demo
+
+###第三次作业
+./pytest_practice
