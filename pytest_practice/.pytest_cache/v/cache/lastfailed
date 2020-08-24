@@ -1,0 +1,8 @@
+{
+  "test_calculator.py": true,
+  "test_calculator.py::TestCalculator::()::test_add0[minus]": true,
+  "test_calculator.py::TestCalculator::()::test_add1[\\u5c0f\\u6570]": true,
+  "test_calculator.py::TestCalculator::()::test_add1[\u5c0f\u6570]": true,
+  "test_calculator.py::TestCalculator::test_add0[minus]": true,
+  "test_calculator.py::TestCalculator::test_add1[\u5c0f\u6570]": true
+}

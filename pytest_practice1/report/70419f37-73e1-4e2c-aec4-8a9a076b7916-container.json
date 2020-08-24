@@ -1,0 +1,1 @@
+{"uuid": "99ee42f6-f3d8-43a8-a9d8-6f827a5266be", "children": ["a4a9523d-7311-4d38-ad3f-c8ea5578f73a"], "befores": [{"name": "get_calculator1", "status": "passed", "start": 1598278626968, "stop": 1598278626968}], "afters": [{"name": "get_calculator1::0", "status": "passed", "start": 1598278626973, "stop": 1598278626974}], "start": 1598278626968, "stop": 1598278626974}
