@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "bb396d8573d95c5fbd0fd1197720662e",
+    "name" : "计算器功能测试",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

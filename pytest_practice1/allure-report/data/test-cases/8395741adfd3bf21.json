@@ -1,0 +1,125 @@
+{
+  "uid" : "8395741adfd3bf21",
+  "name" : "test_mul[无效用例]",
+  "fullName" : "test_calculator.TestCalculator#test_mul",
+  "historyId" : "0c9ae9107ed8991c331a2e862f41cb87",
+  "time" : {
+    "start" : 1598328853327,
+    "stop" : 1598328853329,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 5 == 12",
+  "statusTrace" : "self = <pytest_practice1.test_calculator.TestCalculator object at 0x00000254AA90FB38>\nget_calculator = <pytest_practice1.calculatorCode.calculator.Calculator object at 0x00000254AA8A25C0>, a = 3, b = 4, expect = 5\n\n    @pytest.mark.second_to_last\n    @allure.story(\"测试乘法计算功能\")\n    @pytest.mark.parametrize(\"a,b,expect\", get_datas()[4], ids=get_datas()[5])  # 参数化 , ids命名测试用例结果\n    def test_mul(self,get_calculator, a, b, expect):\n        print(\"测试相乘\")\n        result = round(get_calculator.mul(a, b),2)\n>       assert expect == result\nE       assert 5 == 12\n\ntest_calculator.py:56: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calculator",
+    "time" : {
+      "start" : 1598328850165,
+      "stop" : 1598328850166,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 5 == 12",
+    "statusTrace" : "self = <pytest_practice1.test_calculator.TestCalculator object at 0x00000254AA90FB38>\nget_calculator = <pytest_practice1.calculatorCode.calculator.Calculator object at 0x00000254AA8A25C0>, a = 3, b = 4, expect = 5\n\n    @pytest.mark.second_to_last\n    @allure.story(\"测试乘法计算功能\")\n    @pytest.mark.parametrize(\"a,b,expect\", get_datas()[4], ids=get_datas()[5])  # 参数化 , ids命名测试用例结果\n    def test_mul(self,get_calculator, a, b, expect):\n        print(\"测试相乘\")\n        result = round(get_calculator.mul(a, b),2)\n>       assert expect == result\nE       assert 5 == 12\n\ntest_calculator.py:56: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b07ffff1ca7e077",
+      "name" : "stdout",
+      "source" : "7b07ffff1ca7e077.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_calculator::0",
+    "time" : {
+      "start" : 1598328853401,
+      "stop" : 1598328853402,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器功能测试"
+  }, {
+    "name" : "story",
+    "value" : "测试乘法计算功能"
+  }, {
+    "name" : "tag",
+    "value" : "second_to_last"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9I37L5"
+  }, {
+    "name" : "thread",
+    "value" : "5836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
+    "name" : "expect",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "second_to_last" ]
+  },
+  "source" : "8395741adfd3bf21.json",
+  "parameterValues" : [ "3", "4", "5" ]
+}

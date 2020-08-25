@@ -1,0 +1,155 @@
+{
+  "uid" : "9822de77a74b621e",
+  "name" : "test_sub[无效用例]",
+  "fullName" : "test_calculator.TestCalculator#test_sub",
+  "historyId" : "f196baf37dae0f4a74630b71bf47f90f",
+  "time" : {
+    "start" : 1598328852979,
+    "stop" : 1598328853000,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == -2",
+  "statusTrace" : "self = <pytest_practice1.test_calculator.TestCalculator object at 0x00000254AA8CBBE0>\nget_calculator = <pytest_practice1.calculatorCode.calculator.Calculator object at 0x00000254AA8A25C0>, a = 2, b = 4, expect = 3, get_calculator1 = None\n\n    @pytest.mark.second\n    @allure.story(\"测试减法计算功能\")\n    @pytest.mark.parametrize(\"a,b,expect\", get_datas()[2], ids=get_datas()[3])  # 参数化 , ids命名测试用例结果\n    def test_sub(self,get_calculator, a, b, expect,get_calculator1):\n        print(\"测试相减\")\n        result = round(get_calculator.sub(a, b),2)\n>       assert expect == result\nE       assert 3 == -2\n\ntest_calculator.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calculator1",
+    "time" : {
+      "start" : 1598328852977,
+      "stop" : 1598328852977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_calculator",
+    "time" : {
+      "start" : 1598328850165,
+      "stop" : 1598328850166,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 3 == -2",
+    "statusTrace" : "self = <pytest_practice1.test_calculator.TestCalculator object at 0x00000254AA8CBBE0>\nget_calculator = <pytest_practice1.calculatorCode.calculator.Calculator object at 0x00000254AA8A25C0>, a = 2, b = 4, expect = 3, get_calculator1 = None\n\n    @pytest.mark.second\n    @allure.story(\"测试减法计算功能\")\n    @pytest.mark.parametrize(\"a,b,expect\", get_datas()[2], ids=get_datas()[3])  # 参数化 , ids命名测试用例结果\n    def test_sub(self,get_calculator, a, b, expect,get_calculator1):\n        print(\"测试相减\")\n        result = round(get_calculator.sub(a, b),2)\n>       assert expect == result\nE       assert 3 == -2\n\ntest_calculator.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dba4e01d6e55539",
+      "name" : "stdout",
+      "source" : "7dba4e01d6e55539.txt",
+      "type" : "text/plain",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_calculator1::0",
+    "time" : {
+      "start" : 1598328853044,
+      "stop" : 1598328853045,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_calculator::0",
+    "time" : {
+      "start" : 1598328853401,
+      "stop" : 1598328853402,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试减法计算功能"
+  }, {
+    "name" : "feature",
+    "value" : "计算器功能测试"
+  }, {
+    "name" : "tag",
+    "value" : "second"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9I37L5"
+  }, {
+    "name" : "thread",
+    "value" : "5836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
+    "name" : "expect",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "second" ]
+  },
+  "source" : "9822de77a74b621e.json",
+  "parameterValues" : [ "2", "4", "3" ]
+}

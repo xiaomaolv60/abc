@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 5 == 7",
+      "children" : [ {
+        "name" : "test_add[无效用例]",
+        "uid" : "a8ba1d262bfd444f",
+        "parentUid" : "82adc4856653451865d4c6adacd8ecba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598328850728,
+          "stop" : 1598328850731,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "4", "5" ]
+      } ],
+      "uid" : "82adc4856653451865d4c6adacd8ecba"
+    }, {
+      "name" : "AssertionError: assert 3 == -2",
+      "children" : [ {
+        "name" : "test_sub[无效用例]",
+        "uid" : "9822de77a74b621e",
+        "parentUid" : "05d362f5d7487b9ad3132666be57296e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598328852979,
+          "stop" : 1598328853000,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "4", "3" ]
+      } ],
+      "uid" : "05d362f5d7487b9ad3132666be57296e"
+    }, {
+      "name" : "AssertionError: assert 5 == 12",
+      "children" : [ {
+        "name" : "test_mul[无效用例]",
+        "uid" : "8395741adfd3bf21",
+        "parentUid" : "df0a32c7574d3dc66befa15501796c44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598328853327,
+          "stop" : 1598328853329,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "4", "5" ]
+      } ],
+      "uid" : "df0a32c7574d3dc66befa15501796c44"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_div[无效用例]",
+        "uid" : "5ab1b334a3b77e71",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598328852048,
+          "stop" : 1598328852050,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "0" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
