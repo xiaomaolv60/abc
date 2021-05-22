@@ -7,6 +7,7 @@ enemy_final_hp = enemy_hp - my_power
 """
 
 
+
 from random import randint
 
 def game():
@@ -23,6 +24,9 @@ def game():
         your_hp = your_hp - my_power  #我发起进攻，敌人的剩余血量
         lun +=1
         print("第%d轮后，我的剩余血量：%d,敌人的剩余血量：%d"%(lun,my_hp,your_hp))
+        # 三目运算
+        # print("我赢了") if my_hp > your_hp else print("你赢了")
+
         if my_hp <= 0:
             print("我输了")
             break
